@@ -61,7 +61,7 @@ As an alternative, and if you like to have control over every piece, do the foll
 1) copy the files in the shared folder: 
    - _tailwind.element.ts_ extends LitElement by adding the tailwind support
    - _tailwind.global.css_ includes tha Tailwind base classes into each component
-   - _globals.d.ts_ is used to avoid TypeScript errors whe nimporting CSS/Scss files in typescript files
+   - _globals.d.ts_ is used to avoid TypeScript errors whe nimporting CSS/Scss files in typescript files (thanks [@emaant96](https://github.com/emaant96))
 2) copy the _package.json_ or the devDependencies inside into your own _package.json_  (**there are no dependencies**)
 3) copy _postcss.config.js_, _tailwind.config.js_ and _tsconfig.js_ 
 
