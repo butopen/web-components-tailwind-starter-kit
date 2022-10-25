@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Tailwind web component starter kit
 
 This is starter kit to develop web components with tailwind integrated in it. 
