@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tailwind web component starter kit
 
 This is starter kit to develop web components with tailwind integrated in it. 
@@ -117,3 +118,4 @@ We developed this starter kit to implement a web session player for our open sou
 If you want to contribute or share soem thoughts, just get in touch with us.
 
 Enjoy.
+
