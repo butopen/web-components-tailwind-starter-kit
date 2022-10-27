@@ -1,11 +1,11 @@
 
 # Tailwind web components starter kit
 
-This is starter kit to develop web components with tailwind integrated in it. 
+This is a starter kit to develop web components using Tailwind CSS. 
 
-Tailwind and web components do not play well together. Now they do.
+Tailwind and web components do not play well together. 
 
-We managed to find a way to keep everything really really really simple.
+We managed to find a way to make them work without hacks or weird tech: just common technologies combined in a elegant way.
 
 No dependencies, based on [lit-element](https://lit.dev/docs/).
 
@@ -37,9 +37,9 @@ export class TestComponent extends TailwindElement(style) { // #2
   }
 }
 ```
-It is based on the [lit element](https://lit.dev/docs/) technology.
+It is based on the [lit element](https://lit.dev/docs/) technology: if you wrote a lit component before, you'll find it familiar.  
 
-The only difference to a standard _LitElement_ is that:
+There are only two differences to a standard _LitElement_:
 1) You must import your styles from a separate file. And this is good for two reasons:
    - it separate the CSS from the logic
    - you can decide to use CSS or SCSS
