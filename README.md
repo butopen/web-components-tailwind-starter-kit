@@ -1,5 +1,5 @@
 
-# Tailwind web component starter kit
+# Tailwind web components starter kit
 
 This is starter kit to develop web components with tailwind integrated in it. 
 
