@@ -17,7 +17,7 @@ import {html} from 'lit';
 import {customElement, property} from 'lit/decorators.js';
 import {TailwindElement} from '../shared/tailwind.element';
 
-import style from './test.component.scss'; // #1
+import style from './test.component.scss?inline'; // #1
 
 @customElement('test-component')
 export class TestComponent extends TailwindElement(style) { // #2
@@ -43,6 +43,7 @@ There are only two differences to a standard _LitElement_:
 1) You must import your styles from a separate file. And this is good for two reasons:
    - it separate the CSS from the logic
    - you can decide to use CSS or SCSS
+   - note the `?inline` at the end of the file path: if you don't add it, then vite will add the style to the head of the html. If you add it, the style is scoped into the component only  
 2) the class extends a _TailwindElement_ rather than a LitElement
 
 A _TailwindElement_ extends a _LitElmement_ (see below) and adds the logic to integrate tailwind and your style.
