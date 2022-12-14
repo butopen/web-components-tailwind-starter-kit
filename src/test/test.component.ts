@@ -1,14 +1,13 @@
-import {html} from 'lit';
-import {customElement, property} from 'lit/decorators.js';
-import {TailwindElement} from '../shared/tailwind.element';
+import { html } from "lit";
+import { customElement, property } from "lit/decorators.js";
+import { TailwindElement } from "../shared/tailwind.element";
 
-import style from './test.component.scss';
+import style from "./test.component.scss?inline";
 
-@customElement('test-component')
+@customElement("test-component")
 export class TestComponent extends TailwindElement(style) {
-
   @property()
-  name?: string = 'World';
+  name?: string = "World";
 
   render() {
     return html`
