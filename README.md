@@ -116,7 +116,7 @@ If you add more components, the common parts are reused.
 
 We developed this starter kit to implement a web session player for our open source SaaS [browserbot](https://browserbot.io/).
 
-If you want to contribute or share soem thoughts, just get in touch with us.
+If you want to contribute or share some thoughts, just get in touch with us.
 
 Enjoy.
 
